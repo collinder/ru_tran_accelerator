@@ -1,0 +1,44 @@
+{
+  "accelerator:PotentialOrb": {
+    "NAME": "Potential Orb",
+    "DESCRIPTION": [
+      "At the start of every turn, increases it's #yPotency by #g",
+      "% (rounded up). Deals #b",
+      " #yDamage to ",
+      " when #yEvoked. NL Value shown in #gGreen is affected by #yFocus."
+    ]
+  },
+  "accelerator:KineticOrb": {
+    "NAME": "Kinetic Orb",
+    "DESCRIPTION": [
+      "At the start of every turn, decreases it's #yPotency by #g1/",
+      " (rounded up). Deals #b",
+      " #yDamage to ",
+      " when #yEvoked. NL Value shown in #gGreen is affected by #yFocus.",
+      "At the start of every turn, decreases it's #yPotency to #r0. Deals #b"
+    ]
+  },
+  "accelerator:MagneticOrb": {
+    "NAME": "Magnetic Orb",
+    "DESCRIPTION": [
+      "At the start of every turn, increases it's #yPotency by #b",
+      " for every #yMagnetic Orb currently chanelled. When #yEvoked, Gain #b",
+      " #yBlock and if the next Orb is #yMagnetic, #yEvoke it too. NL Not affected by #yFocus."
+    ]
+  },
+  "accelerator:ThermalOrb": {
+    "NAME": "Thermal Orb",
+    "DESCRIPTION": [
+      "At the start of every turn, swaps it's position with the orb in front of it. If it was another #yThermal Orb, increase Potency by #g",
+      ", otherwise decrease it by #b1. Deals #b",
+      " #yDamage to #rALL #renemies when #yEvoked. NL Value shown in #gGreen is affected by #yFocus."
+    ]
+  },
+  "accelerator:NuclearOrb": {
+    "NAME": "Nuclear Orb",
+    "DESCRIPTION": [
+      "When #yEvoked, Deals #b",
+      " #yDamage to #ra #rrandom #renemy and #yChannels #b2 #yNuclear Orbs with half the Potency. NL Not affected by damage modifiers. NL Not affected by #yFocus."
+    ]
+  }
+}
