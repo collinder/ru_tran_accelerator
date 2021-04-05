@@ -1,51 +1,51 @@
 {
   "accelerator:Cloud": {
-    "NAME": "Infinite Speeds",
-    "FLAVOR": "Cool and good",
+    "NAME": "Бесконечные спиды",
+    "FLAVOR": "Классные и хорошие",
     "DESCRIPTIONS": [
-      "Добавляет #b1 слот для сфер, [E] и восстанавливает #b3 ОЗ on your first turn. NL At the end of every turn, #yEvoke your next #yOrb."
+      "Добавляет #b1 слот для сфер, [E] и восстанавливает #b3 ОЗ в начале боя. NL #yРазряжает след. в очереди #yСферу в конце вашего хода."
     ]
   },
   "accelerator:LaserPointer": {
     "NAME": "Лазерная указка",
-    "FLAVOR": "Let it show you the way.",
+    "FLAVOR": "Позволь ей показать путь.",
     "DESCRIPTIONS": [
-      "Every time you play #b4 #ySkills in a single turn, gain #b1 #yFocus."
+      "Разыгрывая #b4 #yНавыка за ход, вы получаете #b1 #yФокуса."
     ]
   },
   "accelerator:AutoCompiler": {
     "NAME": "Авто-компилятор",
     "FLAVOR": "Зачем ждать?",
     "DESCRIPTIONS": [
-      "Whenever you #yChannel an Orb, trigger its passive ability."
+      "Активирует пассивный эффект сферы, когда вы её #yЗаряжаете."
     ]
   },
   "accelerator:HolographicKunai": {
     "NAME": "Кунай-голограмма",
     "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
-      "Every time you #yChannel #b3 unique Orbs in a single turn, gain #b1 #yDexterity."
+      "#yЗаряжая #b3 уникальные Сферы за ход, gain #b1 #yЛовкости."
     ]
   },
   "accelerator:HolographicShuriken": {
     "NAME": "Сюрикен-голограмма",
     "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
-      "Every time you #yChannel #b3 unique Orbs in a single turn, gain #b1 #yStrength."
+      "#yЗаряжая #b3 уникальные Сферы за ход, вы получаете #b1 #yСилы."
     ]
   },
   "accelerator:HolographicFan": {
     "NAME": "Веер-голограмма",
     "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
-      "Every time you #yChannel #b3 unique Orbs in a single turn, gain #b4 #yBlock."
+      "#yЗаряжая #b3 уникальные Сферы за ход, вы получаете #b4 #yЗащиты."
     ]
   },
   "accelerator:HolographicScroll": {
     "NAME": "Свиток-голограмма",
     "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
-      "Every time you #yChannel #b4 unique Orbs in a single turn, gain #b1 #yFocus."
+      "#yЗаряжая #b3 уникальные Сферы за ход, вы получаете #b1 #yФокуса."
     ]
   },
   "accelerator:BetterCloud": {

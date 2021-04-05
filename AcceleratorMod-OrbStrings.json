@@ -1,6 +1,6 @@
 {
   "accelerator:PotentialOrb": {
-    "NAME": "Potential Orb",
+    "NAME": "Сфера Потенциальности",
     "DESCRIPTION": [
       "At the start of every turn, increases it's #yPotency by #g",
       "% (rounded up). Deals #b",
@@ -9,7 +9,7 @@
     ]
   },
   "accelerator:KineticOrb": {
-    "NAME": "Kinetic Orb",
+    "NAME": "Сфера Кинетики",
     "DESCRIPTION": [
       "At the start of every turn, decreases it's #yPotency by #g1/",
       " (rounded up). Deals #b",
@@ -19,7 +19,7 @@
     ]
   },
   "accelerator:MagneticOrb": {
-    "NAME": "Magnetic Orb",
+    "NAME": "Сфера Магнитности",
     "DESCRIPTION": [
       "At the start of every turn, increases it's #yPotency by #b",
       " for every #yMagnetic Orb currently chanelled. When #yEvoked, Gain #b",
@@ -27,7 +27,7 @@
     ]
   },
   "accelerator:ThermalOrb": {
-    "NAME": "Thermal Orb",
+    "NAME": "Сфера Термальности",
     "DESCRIPTION": [
       "At the start of every turn, swaps it's position with the orb in front of it. If it was another #yThermal Orb, increase Potency by #g",
       ", otherwise decrease it by #b1. Deals #b",
@@ -35,7 +35,7 @@
     ]
   },
   "accelerator:NuclearOrb": {
-    "NAME": "Nuclear Orb",
+    "NAME": "Сфера Ядерности",
     "DESCRIPTION": [
       "When #yEvoked, Deals #b",
       " #yDamage to #ra #rrandom #renemy and #yChannels #b2 #yNuclear Orbs with half the Potency. NL Not affected by damage modifiers. NL Not affected by #yFocus."

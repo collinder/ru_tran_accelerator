@@ -26,40 +26,40 @@
 		"DESCRIPTION": "Начальная. NL Заряжает Сферу Магнитности с !B! потенциала. NL Разряжает след. в очереди сферу. NL Сжигается."
 	},
 	"accelerator:Propulsion": {
-		"NAME": "Propulsion",
+		"NAME": "Импульс",
 		"DESCRIPTION": "Заряжает Сферу Термальности с !D! потенциала. NL Вы берёте 1 карту."
 	},
 	"accelerator:Blaze": {
-		"NAME": "Blaze",
-		"DESCRIPTION": "Channel !M! Thermal Orbs with !D! Potency. NL Exhaust 1 card from your hand."
+		"NAME": "Пламя",
+		"DESCRIPTION": "Заряжает !M! Сфер Термальности с !D! потенциала. NL Сжигает 1 карту в руке."
 	},
 	"accelerator:Friction": {
-		"NAME": "Friction",
-		"DESCRIPTION": "Lose 1 Focus. NL Every time you Evoke a Kinetic Orb, Channel a Thermal Orb with the same Potency."
+		"NAME": "Трение",
+		"DESCRIPTION": "Отнимает 1 Фокуса. NL Заряжает Сферу Термальности, когда вы разряжаете Сферу Кинетики, с тем же потенциалом."
 	},
 	"accelerator:Intensify": {
-		"NAME": "Intensify",
-		"DESCRIPTION": "Gain 2 Orb slots. NL Gain !M! Focus.",
-		"UPGRADE_DESCRIPTION": "Innate. NL Gain 2 Orb slots. NL Gain !M! Focus."
+		"NAME": "Усилить",
+		"DESCRIPTION": "Добавляет 2 слота для сфер. NL Даёт !M! Фокуса.",
+		"UPGRADE_DESCRIPTION": "Начальная. NL Добавляет 2 слота для сфер. NL Даёт !M! Фокуса."
 	},
 	"accelerator:MagneticLink": {
-		"NAME": "Magnetic Link",
-		"DESCRIPTION": "Channel !M! Magnetic Orbs with !B! Potency."
+		"NAME": "Магнитное соединение",
+		"DESCRIPTION": "Заряжает !M! Сфер Магнитности с !B! потенциала."
 	},
 	"accelerator:Threaten": {
-		"NAME": "Threaten",
-		"DESCRIPTION": "Channel a Potential Orb with !D! Potency. NL Apply !M! Vulnerable."
+		"NAME": "Пригрозить",
+		"DESCRIPTION": "Заряжает Сферу Потенциальности с !D! потенциала. NL Накладывает !M! Уязвимости."
 	},
 	"accelerator:Knockback": {
-		"NAME": "Knockback",
-		"DESCRIPTION": "Channel a Kinetic Orb with !D! Potency. NL Discard 2 cards."
+		"NAME": "Отбросить",
+		"DESCRIPTION": "Заряжает Сферу Кинетики с !D! потенциала. NL Вы сбрасываете 2 карты."
 	},
 	"accelerator:Deflect": {
-		"NAME": "Deflect",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency (Has 1 more potency for each Magnetic Orb currently Channeled)."
+		"NAME": "Отклонить",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала (На 1 потенциала больше за каждый заряженную в данный момент Сферу Магнитности)."
 	},
 	"accelerator:Polarize": {
-		"NAME": "Polarize",
+		"NAME": "Поляризовать",
 		"DESCRIPTION": "Merge ALL adjacent Magnetic Orbs. NL Channel a Magnetic Orb with !B! Potency."
 	},
 	"accelerator:MergeSort": {
@@ -317,7 +317,7 @@
 		"DESCRIPTION": "Trigger the passive effect of your !M! leftmost orbs. NL Channel a Thermal Orb with !D! Potency."
 	},
 	"accelerator:Rage": {
-		"NAME": "Rage",
+		"NAME": "Ярость",
 		"DESCRIPTION": "Channel a Kinetic Orb with !D! Potency. NL Gain !M! strength for this turn."
 	},
 	"accelerator:Vacuum": {
