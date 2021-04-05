@@ -1,33 +1,33 @@
 {	
 	"accelerator:Strike": {
-		"NAME": "Strike",
-		"DESCRIPTION": "Channel a Potential Orb with !D! Potency."
+		"NAME": "Удар",
+		"DESCRIPTION": "Заряжает Сферу Потенциала с !D! потенциала."
 	},
 	"accelerator:Defend": {
-		"NAME": "Defend",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency."
+		"NAME": "Оборона",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала."
 	},
 	"accelerator:Stream": {
-		"NAME": "Stream",
-		"DESCRIPTION": "Channel 2 Kinetic Orbs with !D! Potency."
+	    "NAME": "Поток",
+		"DESCRIPTION": "Заряжает 2 Орба Кинетики с !D! потенциала."
 	},
 	"accelerator:Reverse": {
-		"NAME": "Reverse",
-		"DESCRIPTION": "Retain. NL Reverse the order of your Orbs.",
-		"UPGRADE_DESCRIPTION": "Retain. NL Reverse the order of your Orbs. NL Evoke the next Orb."
+		"NAME": "Реверсировать",
+		"DESCRIPTION": "Оставляется. NL Реверсирует порядок Сфер.",
+		"UPGRADE_DESCRIPTION": "Оставляется. NL Реверсирует порядок Сфер. NL Разряжает след. в очереди сферу."
 	},
 	"accelerator:EvokeCommand": {
-		"NAME": "Evoke Command",
-		"DESCRIPTION": "Retain. NL Evoke the next Orb.",
-		"UPGRADE_DESCRIPTION": "Retain. NL Evoke next !M! Orbs."
+		"NAME": "Команда разрядки",
+		"DESCRIPTION": "Оставляется. NL Разряжает след. в очереди сферу.",
+		"UPGRADE_DESCRIPTION": "Оставляется. NL Разряжает !M! след. в очереди сферы."
 	},
 	"accelerator:KickStart": {
 		"NAME": "Kick-start",
-		"DESCRIPTION": "Innate. NL Channel a Magnetic Orb with !B! Potency. NL Evoke your next orb. NL Exhaust."
+		"DESCRIPTION": "Начальная. NL Заряжает Сферу Магнитности с !B! потенциала. NL Разряжает след. в очереди сферу. NL Сжигается."
 	},
 	"accelerator:Propulsion": {
 		"NAME": "Propulsion",
-		"DESCRIPTION": "Channel a Thermal Orb with !D! Potency. NL Draw 1 card."
+		"DESCRIPTION": "Заряжает Сферу Термальности с !D! потенциала. NL Вы берёте 1 карту."
 	},
 	"accelerator:Blaze": {
 		"NAME": "Blaze",
@@ -81,7 +81,7 @@
 		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Channel 1 Frost. NL Decrease potency of all currently Channeled Thermal Orbs by 2."
 	},
 	"accelerator:GrowingPotential": {
-		"NAME": "Growing Potential",
+		"NAME": "Растущий потенциал",
 		"DESCRIPTION": "Gain 1 Orb slot. NL Push ALL Potential orbs to the back of Orb queue and trigger their passive effect !M! times."
 	},
 	"accelerator:Spring": {

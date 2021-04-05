@@ -3,47 +3,47 @@
     "NAME": "Infinite Speeds",
     "FLAVOR": "Cool and good",
     "DESCRIPTIONS": [
-      "Gain #b1 additional Orb slot, [E] and heal 3 HP on your first turn. NL At the end of every turn, #yEvoke your next #yOrb."
+      "Добавляет #b1 слот для сфер, [E] и восстанавливает #b3 ОЗ on your first turn. NL At the end of every turn, #yEvoke your next #yOrb."
     ]
   },
   "accelerator:LaserPointer": {
-    "NAME": "Laser Pointer",
+    "NAME": "Лазерная указка",
     "FLAVOR": "Let it show you the way.",
     "DESCRIPTIONS": [
       "Every time you play #b4 #ySkills in a single turn, gain #b1 #yFocus."
     ]
   },
   "accelerator:AutoCompiler": {
-    "NAME": "Auto-Compiler",
-    "FLAVOR": "Why would you wait?",
+    "NAME": "Авто-компилятор",
+    "FLAVOR": "Зачем ждать?",
     "DESCRIPTIONS": [
       "Whenever you #yChannel an Orb, trigger its passive ability."
     ]
   },
   "accelerator:HolographicKunai": {
-    "NAME": "Holographic Kunai",
-    "FLAVOR": "It becomes more real with every bit of energy it absorbs.",
+    "NAME": "Кунай-голограмма",
+    "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
       "Every time you #yChannel #b3 unique Orbs in a single turn, gain #b1 #yDexterity."
     ]
   },
   "accelerator:HolographicShuriken": {
-    "NAME": "Holographic Shuriken",
-    "FLAVOR": "It becomes more real with every bit of energy it absorbs.",
+    "NAME": "Сюрикен-голограмма",
+    "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
       "Every time you #yChannel #b3 unique Orbs in a single turn, gain #b1 #yStrength."
     ]
   },
   "accelerator:HolographicFan": {
-    "NAME": "Holographic Fan",
-    "FLAVOR": "It becomes more real with every bit of energy it absorbs.",
+    "NAME": "Веер-голограмма",
+    "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
       "Every time you #yChannel #b3 unique Orbs in a single turn, gain #b4 #yBlock."
     ]
   },
   "accelerator:HolographicScroll": {
-    "NAME": "Holographic Scroll",
-    "FLAVOR": "It becomes more real with every bit of energy it absorbs.",
+    "NAME": "Свиток-голограмма",
+    "FLAVOR": "Становится реальнее с каждой капелькой поглощенной энергии.",
     "DESCRIPTIONS": [
       "Every time you #yChannel #b4 unique Orbs in a single turn, gain #b1 #yFocus."
     ]
