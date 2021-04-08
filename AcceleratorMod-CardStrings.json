@@ -60,16 +60,16 @@
 	},
 	"accelerator:Polarize": {
 		"NAME": "Поляризовать",
-		"DESCRIPTION": "Merge ALL adjacent Magnetic Orbs. NL Channel a Magnetic Orb with !B! Potency."
+		"DESCRIPTION": "Объединяет ВСЕ смежные Сферы Магнитности. NL Заряжает Сферу Магнитности с !B! потенциала."
 	},
 	"accelerator:MergeSort": {
-		"NAME": "Merge Sort",
-		"DESCRIPTION": "Merge ALL Orbs of the same type and sort them by potency (descending). NL Draw 1 card.",
-		"UPGRADE_DESCRIPTION": "Retain. NL Merge ALL Orbs of the same type and sort them by potency (descending). NL Draw 1 card."
+		"NAME": "Сортировка слиянием",
+		"DESCRIPTION": "Объединяет ВСЕ Сферы одного типа и сортирует их по потенциалу (по убыванию). NL Вы берёте 1 карту.",
+		"UPGRADE_DESCRIPTION": "Оставляется. NL Объединяет ВСЕ Сферы одного типа и сортирует их по потенциалу (по убыванию). NL Вы берёте 1 карту."
 	},
 	"accelerator:Radiation": {
-		"NAME": "Radiation",
-		"DESCRIPTION": "Channel a Nuclear Orb with !M! Potency. NL (37 Damage in total)",
+		"NAME": "Радиация",
+		"DESCRIPTION": "Заряжает Nuclear Orb с !M! потенциала. NL (37 Damage in total)",
 		"UPGRADE_DESCRIPTION": "Channel a Nuclear Orb with !M! Potency. NL (49 Damage in total)"
 	},
 	"accelerator:PushOut": {
@@ -78,35 +78,35 @@
 	},
 	"accelerator:Cooldown": {
 		"NAME": "Cooldown",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Channel 1 Frost. NL Decrease potency of all currently Channeled Thermal Orbs by 2."
+	    "DESCRIPTION": "Заряжает Сферу Магнитности c !B! потенциала. NL Заряжает 1 Сферы Льда. NL Уменьшает потенциал всех текущих Сфер Термальности на 2."
 	},
 	"accelerator:GrowingPotential": {
 		"NAME": "Растущий потенциал",
-		"DESCRIPTION": "Gain 1 Orb slot. NL Push ALL Potential orbs to the back of Orb queue and trigger their passive effect !M! times."
+		"DESCRIPTION": "Добавляет 1 слот для сфер. NL Push ALL Potential orbs to the back of Orb queue and trigger their passive effect !M! times."
 	},
 	"accelerator:Spring": {
 		"NAME": "Spring",
-		"DESCRIPTION": "Merge ALL Kinetic Orbs into single Potential Orb and push it to the back of Orb queue.",
+		"DESCRIPTION": "Объединяет ВСЕ Сферы Кинетики в одну Сферу Потенциальности и push it to the back of Orb queue.",
 		"UPGRADE_DESCRIPTION": "Merge ALL Kinetic AND Potential Orbs into single Potential Orb and push it to the back of Orb queue."
 	},
 	"accelerator:Superposition": {
-		"NAME": "Superposition",
-		"DESCRIPTION": "Evoke the next orb NL !M! times. NL Exhaust."
+		"NAME": "Суперпозиция",
+		"DESCRIPTION": "Разряжает след. в очереди сферу NL !M! раза. NL Сжигается."
 	},
 	"accelerator:Acceleration": {
-		"NAME": "Acceleration",
-		"DESCRIPTION": "Trigger the passive effect of ALL your Orbs !M! times."
+		"NAME": "Ускорение",
+		"DESCRIPTION": "Активирует пассивный эффект ВСЕХ Сфер !M! раза."
 	},
 	"accelerator:Demagnetize": {
-		"NAME": "Demagnetize",
-		"DESCRIPTION": "Magnetic Orbs no longer Evoke other Magnetic Orbs. NL Gain !M! Dexterity."
+		"NAME": "Размагничивание",
+		"DESCRIPTION": "Сферы Магнитности больше не разряжают другие Сферы Магнитности. NL Даёт !M! Ловкости."
 	},
 	"accelerator:Newtons1": {
-		"NAME": "Newton's 1st Law",
-		"DESCRIPTION": "Kinetic Orbs don't decay for !M! turns."
+		"NAME": "Первый закон Ньютона",
+		"DESCRIPTION": "Сферы Кинетики не слабеют след. !M! ходов."
 	},
 	"accelerator:Newtons2": {
-		"NAME": "Newton's 2nd Law",
+		"NAME": "Второй закон Ньютона",
 		"DESCRIPTION": "Put the next Orb to the back of Orb queue and trigger it's passive effect twice.",
 		"UPGRADE_DESCRIPTION": "Put next 2 Orbs to the back of Orb queue and trigger their passive effects twice."
 	},
@@ -116,41 +116,41 @@
 		"UPGRADE_DESCRIPTION": "Evoke your most potent Kinetic orb. NL Gain !B! Block NL (equal to it's Potency)."
 	},
 	"accelerator:Roast": {
-		"NAME": "Roast",
-		"DESCRIPTION": "Channel a Thermal Orb with !D! Potency. NL Apply !M! Weak."
+		"NAME": "Обжарить",
+		"DESCRIPTION": "Заряжает Сферу Термальности с !D! потенциала. NL Накладывает !M! Слабости."
 	},
 	"accelerator:IceSandwich": {
-		"NAME": "Ice Sandwich",
-		"DESCRIPTION": "Channel 1 Frost. NL Channel a Magnetic Orb with !B! Potency. NL Channel 1 Frost."
+		"NAME": "Ледяной бутерброд",
+		"DESCRIPTION": "Заряжает 1 Сферу Льда. NL Заряжает Сферу Магнитности с !B! потенциала. NL Заряжает 1 Сферу Льда."
 	},
 	"accelerator:KnockOut": {
 		"NAME": "Knock Out",
 		"DESCRIPTION": "Channel a Kinetic Orb with !D! Potency. NL Apply !M! Weak. NL Apply 1 Stunned. NL Exhaust."
 	},
 	"accelerator:Ground": {
-		"NAME": "Ground",
-		"DESCRIPTION": "Channel Potential and Kinetic Orb, both with !D! Potency. NL Apply 2 Weak and Vulnerable.",
-        "UPGRADE_DESCRIPTION": "Channel Kinetic and Potential Orb, both with !D! Potency. NL Apply 2 Vulnerable and Weak."
+		"NAME": "Заземлить",
+		"DESCRIPTION": "Заряжает Сферы Потенциальности и Кинетики, каждую с !D! потенциала. NL Накладывает 2 Слабости и Уязвимости.",
+        "UPGRADE_DESCRIPTION": "Заряжает Сферы Кинетики и Потенциальности, каждую с !D! потенциала. NL Накладывает 2 Уязвимости и Слабости."
 	},
 	"accelerator:DarkMatter": {
-		"NAME": "Dark Matter",
-		"DESCRIPTION": "Channel a Potential Orb with !D! Potency. NL Costs 1 less for every Potential Orb Channeled this combat."
+		"NAME": "Темная материя",
+		"DESCRIPTION": "Заряжает Сферу Потенциальности с !D! потенциала. NL Стоит на 1 меньше за каждую Заряженную Сферу Потенциальности в этом бою."
 	},
 	"accelerator:NuclearReactor": {
-		"NAME": "Nuclear Reactor",
-		"DESCRIPTION": "Channel a Nuclear Orb with !M! Potency. NL (12 Damage in total) NL Channel 1 Plasma."
+		"NAME": "Атомный реактор",
+		"DESCRIPTION": "Заряжает Nuclear Orb с !M! потенциала. NL (12 урона in total) NL Заряжает 1 Сферы_Плазмы."
 	},
 	"accelerator:EnergyTransfer": {
-		"NAME": "Energy Transfer",
+		"NAME": "Перенос энергии",
 		"DESCRIPTION": "The next !M! times you would lose HP, Channel a Kinetic Orb targeted at yourself with Potency of the HP you would've lost."
 	},
 	"accelerator:Relativity": {
-		"NAME": "Relativity",
+		"NAME": "Относительность",
 		"DESCRIPTION": "Reduce the Potency of ALL your Orbs by 2. NL ALL enemies lose !M! Strength for this turn."
 	},
 	"accelerator:ClosedSystem": {
-		"NAME": "Closed System",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Next turn, gain [E] ."
+		"NAME": "Закрытая система",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Даёт [E] в след. ходу."
 	},
 	"accelerator:Impact": {
 		"NAME": "Impact",
@@ -162,9 +162,9 @@
 		"UPGRADE_DESCRIPTION": "Trigger the passive effect of your rightmost Orb twice. NL Channel a Magnetic Orb with !B! Potency. NL Trigger the passive effect of all your Magnetic Orbs."
 	},
 	"accelerator:SolarFlare": {
-		"NAME": "Solar Flare",
-		"DESCRIPTION": "Channel Kinetic and Thermal Orb, both with !D! Potency. NL Channel a Nuclear Orb with !M! Potency. NL (4 Damage in total)",
-		"UPGRADE_DESCRIPTION": "Channel Kinetic and Thermal Orb, both with !D! Potency. NL Channel a Nuclear Orb with !M! Potency. NL (5 Damage in total)"
+		"NAME": "Солнечная вспышка",
+		"DESCRIPTION": "Заряжает Сферы Кинетики и Термальности, каждую с !D! потенциала. NL Заряжает a Nuclear Orb with !M! Potency. NL (4 Damage in total)",
+		"UPGRADE_DESCRIPTION": "Заряжает Сферы Кинетики и Термальности, каждую с !D! потенциала. NL Заряжает  Nuclear Orb с !M! потенциала. NL (5 урона в сумме)"
 	},
 	"accelerator:Stabilize": {
 		"NAME": "Stabilize",
@@ -184,28 +184,28 @@
         ]
 	},
 	"accelerator:Dynamo": {
-		"NAME": "Dynamo",
-		"DESCRIPTION": "Gain [E] for every 5 Orbs you Evoke."
+		"NAME": "Динамо",
+		"DESCRIPTION": "Даёт [E] за каждые 5 разряженных Сфер."
 	},
 	"accelerator:DoubleSlit": {
 		"NAME": "Double Slit",
-		"DESCRIPTION": "Channel a Potential Orb with !D! Potency and randomly chosen target twice."
+	    "DESCRIPTION": "Заряжает Сферу Потенциальности с !D! потенциала и случ. выбранной целью дважды."
 	},
 	"accelerator:Jet": {
 		"NAME": "Jet",
-		"DESCRIPTION": "Channel !M! Kinetic Orbs with !D! Potency."
+		"DESCRIPTION": "Заряжает !M! Сферы Кинетики с !D! потенциала."
 	},
 	"accelerator:Search": {
-		"NAME": "Search",
-		"DESCRIPTION": "Draw 3 cards.",
-		"UPGRADE_DESCRIPTION": "Retain. NL Draw 3 cards."
+		"NAME": "Поиск",
+		"DESCRIPTION": "Вы берёте 3 карты.",
+		"UPGRADE_DESCRIPTION": "Оставляется. NL Вы берёте 3 карты."
 	},
 	"accelerator:Research": {
-		"NAME": "Research",
-		"DESCRIPTION": "Draw cards until you draw a Skill or your draw pile is empty. NL Draw !M! cards."
+	    "NAME": "Исследование",
+		"DESCRIPTION": "Вы берёте карты, пока не возьмете Навык или стопка добора не опустеет. NL Вы берёте !M! карты."
 	},
 	"accelerator:Investigation": {
-		"NAME": "Investigation",
+		"NAME": "Расследование",
 		"DESCRIPTION": "Draw cards until you draw 2 cards which do not cost 0 energy energy or your hand is full.",
 		"UPGRADE_DESCRIPTION": "Retain. NL Draw cards until you draw 2 cards which do not cost 0 energy energy or your hand is full."
 	},
@@ -219,120 +219,120 @@
 		"DESCRIPTION": "Channel a Potential Orb with !D! Potency. NL Apply !M! Piecing to ALL enemies. NL Exhaust."
 	},
 	"accelerator:Efficiency": {
-		"NAME": "Efficiency",
-		"DESCRIPTION": "Every time an Orb loses Potency, gain !M! times as much Block."
+		"NAME": "Эффективность",
+		"DESCRIPTION": "Когда Сфера теряет потенциал, даёт в !M! раз больше защиты."
 	},
 	"accelerator:Pull": {
-		"NAME": "Pull",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Draw !M! card.",
-		"UPGRADE_DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Draw !M! cards."
+		"NAME": "Рывок",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Вы берёте !M! карту.",
+		"UPGRADE_DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Вы берёте !M! карты."
 	},
 	"accelerator:Engine": {
-		"NAME": "Engine",
-		"DESCRIPTION": "Channel a Kinetic Orb with !D! Potency and randomly chosen target X times."
+		"NAME": "Двигатель",
+		"DESCRIPTION": "Заряжает Сферу Кинетики с !D! потенциала и случ. выбранной целью X раза."
 	},
 	"accelerator:Streamline": {
-		"NAME": "Streamline",
-		"DESCRIPTION": "Lose 1 Orb slot. NL Gain !M! Strength."
+		"NAME": "Рационализировать",
+		"DESCRIPTION": "Отнимает 1 слот для сфер. NL Даёт !M! Силы."
 	},
 	"accelerator:MobiusLoop": {
-		"NAME": "Möbius Loop",
-		"DESCRIPTION": "At the start of your turn, trigger the passive effect of your leftmost Orb !M! times."
+		"NAME": "Петля Мёбиуса",
+		"DESCRIPTION": "Активирует пассивный эффект левейшей Сферы !M! раза в начале вашего хода."
 	},
 	"accelerator:Spin": {
-		"NAME": "Spin",
-		"DESCRIPTION": "Every time you play a Skill, draw 1 card."
+		"NAME": "Вращение",
+		"DESCRIPTION": "Вы берёте 1 карту, когда вы разыгрываете Навык."
 	},
 	"accelerator:Fragmentation": {
-		"NAME": "Fragmentation",
-		"DESCRIPTION": "Deal !D! damage and gain !B! Block for every Magnetic Orb you have."
+		"NAME": "Фрагментация",
+		"DESCRIPTION": "Наносит !D! урона и даёт !B! Защиты за каждую Заряженную Сферу Магнитности."
 	},
 	"accelerator:BlackHole": {
-		"NAME": "Black Hole",
-		"DESCRIPTION": "Channel a Potential Orb with !D! Potency. NL Exhaust. NL Can be upgraded any number of times."
+		"NAME": "Черная дыра",
+		"DESCRIPTION": "Заряжает Сферу Потенциальности с !D! потенциала. NL Сжигается. NL Можно Улучшать неограниченное количество раз."
 	},
 	"accelerator:Drain": {
-		"NAME": "Drain",
-		"DESCRIPTION": "Deal !D! damage NL ( !M! % of your most potent Potential Orb's Potency). NL Decrease its Potency by 3."
+		"NAME": "Истечение",
+		"DESCRIPTION": "Наносит !D! урона NL ( !M! %  потенциала Сферы Потенциальности с наибольшим потенциалом). NL Уменьшает её потенциал на 3."
 	},
 	"accelerator:Exchange": {
-		"NAME": "Exchange",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Discard random card. NL Put a card from your discard pile into your hand.",
-		"UPGRADE_DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Discard 1 card. NL Put a card from your discard pile into your hand."
+		"NAME": "Обмен",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Вы сбрасываете случ. карту. NL Вы кладёте карту из стопки сброса в руку.",
+		"UPGRADE_DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Вы сбрасываете 1 карту. NL Вы кладёте карту из стопки сброса в руку."
 	},
 	"accelerator:Wormhole": {
-		"NAME": "Wormhole",
-		"DESCRIPTION": "Choose a new target for ALL Kinetic and Potential Orbs.",
-		"UPGRADE_DESCRIPTION": "Choose a new target for ALL Kinetic and Potential Orbs and Evoke them."
+		"NAME": "Червоточина",
+		"DESCRIPTION": "Выбирает новую цель для ВСЕХ Сфер Кинетики и Потенциальности.",
+		"UPGRADE_DESCRIPTION": "Выбирает новую цель для ВСЕХ Сфер Кинетики и Потенциальности и Разряжает их."
 	},
 	"accelerator:Reject": {
-		"NAME": "Reject",
-		"DESCRIPTION": "Discard 1 card. Trigger the passive effect of your rightmost Orb !M! times and Evoke it."
+		"NAME": "Отклонять",
+		"DESCRIPTION": "Вы сбрасываете 1 карту. NL Активирует пассивный эффект правейшей Сферы !M! раза и Разряжает её."
 	},
 	"accelerator:Fission": {
-		"NAME": "Fission",
-		"DESCRIPTION": "Every time you Evoke Plasma, decrease the cost of a random card in your hand by !M! for this combat."
+		"NAME": "Расщепление",
+		"DESCRIPTION": "Уменьшает цену случ. карту в руке на !M! в этом бою, когда вы Разряжаете Сферу_Плазмы."
 	},
 	"accelerator:Overheat": {
-		"NAME": "Overheat",
-		"DESCRIPTION": "Transform ALL Thermal Orbs into Plasma. NL Exhaust.",
-		"UPGRADE_DESCRIPTION": "Transform ALL Thermal Orbs into Plasma."
+		"NAME": "Перегрев",
+		"DESCRIPTION": "Преобразует ВСЕ Сферы Термальности в Сферы_Плазмы. NL Сжигается.",
+		"UPGRADE_DESCRIPTION": "Преобразует ВСЕ Сферы Термальности в Сферы_Плазмы."
 	},
 	"accelerator:Magnetosphere": {
-		"NAME": "Magnetosphere",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Gain 1 Artifact. NL Exhaust.",
-		"UPGRADE_DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Gain 1 Artifact."
+		"NAME": "Магнитосфера",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Даёт 1 Артефакта. NL Сжигается.",
+		"UPGRADE_DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Даёт 1 Артефакта."
 	},
 	"accelerator:MagneticResonance": {
-		"NAME": "Magnetic Resonance",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Trigger its passive effect !M! X times."
+		"NAME": "Магнитный резонанс",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Активирует её пассивный эффект !M! X раза."
 	},
 	"accelerator:Inferno": {
-		"NAME": "Inferno",
-		"DESCRIPTION": "Channel X Thermal Orbs with !D! Potency. NL Draw X more cards next turn. NL Exhaust."
+		"NAME": "Инферно",
+		"DESCRIPTION": "Заряжает X Сферы Термальности с !D! потенциала. NL В след. ходу вы возьмете на X карт больше. NL Сжигается."
 	},
 	"accelerator:Chaos": {
-		"NAME": "Chaos",
-		"DESCRIPTION": "Channel !M! random Orbs with 3 Potency (Not affected by damage or Block modifiers). NL Discard 1 random card."
+		"NAME": "Хаос",
+		"DESCRIPTION": "Заряжает !M! случ. Сфер с 3 потенциала (Не затрагивается модификаторами урона или Защиты). NL Вы сбрасываете 1 случ. карту."
 	},
 	"accelerator:TheoryOfEverything": {
-		"NAME": "Theory Of Everything",
-		"DESCRIPTION": "Deal !D! damage. NL Deals twice as much damage for every unique Orb you have.",
-		"UPGRADE_DESCRIPTION": "Retain. NL Deal !D! damage. NL Deals twice as much damage for every unique Orb you have."
+		"NAME": "Теория всего",
+		"DESCRIPTION": "Наносит !D! урона. NL Удваивает свой урон за каждую уникальную Заряженную Сферу..",
+		"UPGRADE_DESCRIPTION": "Оставляется. NL Наносит !D! урона. NL Удваивает свой урон за каждую уникальную Заряженную Сферу."
 	},
 	"accelerator:UniversalForm": {
-		"NAME": "Universal Form",
-		"DESCRIPTION": "At the start of every turn, gain Strength and Dexterity equal to the amount of unique Orbs you have. NL Lose it at the end of that turn."
+		"NAME": "Универсальный облик",
+		"DESCRIPTION": "Даёт Силы и Ловкости от количества уникальных Заряженных Сферы в начале вашего хода. NL Отнимает полученные Силу и Ловкость в конце вашего хода."
 	},
 	"accelerator:Encryption": {
-		"NAME": "Encryption",
-		"DESCRIPTION": "Gain !B! Block !M! times (once for every unique Orb you have)."
+		"NAME": "Шифрование",
+		"DESCRIPTION": "Даёт !B! Защиты !M! раза (once for every unique Orb you have)."
 	},
 	"accelerator:Shove": {
-		"NAME": "Shove",
-		"DESCRIPTION": "Channel a Kinetic Orb with !D! Potency."
+		"NAME": "Пихание",
+		"DESCRIPTION": "Заряжает Сферу Кинетики с !D! потенциала."
 	},
 	"accelerator:Bake": {
-		"NAME": "Bake",
-		"DESCRIPTION": "Trigger the passive effect of your !M! leftmost orbs. NL Channel a Thermal Orb with !D! Potency."
+		"NAME": "Выпекание",
+		"DESCRIPTION": "Активирует пассивный эффект !M! сфер слева. NL Заряжает Сферу Термальности с !D! потенциала."
 	},
 	"accelerator:Rage": {
 		"NAME": "Ярость",
-		"DESCRIPTION": "Channel a Kinetic Orb with !D! Potency. NL Gain !M! strength for this turn."
+		"DESCRIPTION": "Заряжает Сферу Кинетики с !D! потенциала. NL Даёт !M! Силы в этом ходу."
 	},
 	"accelerator:Vacuum": {
-		"NAME": "Vacuum",
-		"DESCRIPTION": "The next Orb you Channel this turn has twice as much Potency. NL Works only on Orbs with Potency.",
-		"UPGRADE_DESCRIPTION": "The next !M! Orbs you Channel this turn have twice as much Potency. NL Works only on Orbs with Potency."
+		"NAME": "Вакуум",
+		"DESCRIPTION": "След. Заряженная сфера в этом ходу имеет в два раза больше потенциала. NL Работает только с Орбами с потенциалом.",
+		"UPGRADE_DESCRIPTION": "След.  !M! Заряженные сферы в этом ходу имеют в два раза больше потенциала. NL Работает только с Орбами с потенциалом."
 	},
 	"accelerator:Induction": {
-		"NAME": "Induction",
-		"DESCRIPTION": "Channel a Thermal Orb with !D! Potency and a Magnetic Orb with !B! Potency NL ( !M! Potency for each enemy). NL Exhaust.",
-		"UPGRADE_DESCRIPTION": "Innate. NL Channel a Thermal Orb with !D! Potency and a Magnetic Orb with !B! Potency NL ( !M! Potency for each enemy). NL Exhaust."
+		"NAME": "Индукция",
+		"DESCRIPTION": "Заряжает Сферу Термальности с !D! потенциала и Сферу Магнитности  с !B! потенциала NL ( !M! потенциала за каждого врага ). NL Сжигается.",
+		"UPGRADE_DESCRIPTION": "Начальная. NL Заряжает Сферу Термальности с !D! потенциала и Сферу Магнитности с !B! потенциала NL ( !M! потенциала за каждого врага). NL Сжигается."
 	},
 	"accelerator:Overflow": {
-		"NAME": "Overflow",
-		"DESCRIPTION": "ALL cards which cost 3 or more energy become free to play once.",
-		"UPGRADE_DESCRIPTION": "ALL cards which cost 3 or more energy become free to play for the rest of the combat."
+		"NAME": "Переполнения",
+		"DESCRIPTION": "ВСЕ карты, которые стоят 3 или больше стоят 0, пока не разыграны.",
+		"UPGRADE_DESCRIPTION": "ВСЕ карты, которые стоят 3 или больше стоят 0 до конца боя."
 	}
 }
