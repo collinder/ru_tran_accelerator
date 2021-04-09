@@ -2,43 +2,43 @@
   "accelerator:PotentialOrb": {
     "NAME": "Сфера Потенциальности",
     "DESCRIPTION": [
-      "At the start of every turn, increases it's #yPotency by #g",
-      "% (rounded up). Deals #b",
-      " #yDamage to ",
-      " when #yEvoked. NL Value shown in #gGreen is affected by #yFocus."
+      "Увеличивает свой #yпотенциал на #g",
+      "% (с округлением вверх) в начале каждого вашего хода. Наносит #b",
+      " #yурона при ",
+      " #yРазрядке. NL Значение, зависящее от #yФокуса, показано в #gЗеленом."
     ]
   },
   "accelerator:KineticOrb": {
     "NAME": "Сфера Кинетики",
     "DESCRIPTION": [
-      "At the start of every turn, decreases it's #yPotency by #g1/",
-      " (rounded up). Deals #b",
-      " #yDamage to ",
-      " when #yEvoked. NL Value shown in #gGreen is affected by #yFocus.",
-      "At the start of every turn, decreases it's #yPotency to #r0. Deals #b"
+      "Снижает свой #yпотенциал на #g1/",
+      " (с округлением вверх) в начале каждого вашего хода. Наносит #b",
+      " #yурона при ",
+      " #yРазрядке. NL Значение, зависящее от #yФокуса, показано в #gЗеленом.",
+      "At the start of every turn, Снижает свой #yпотенциал до #r0. Наносит #b"
     ]
   },
   "accelerator:MagneticOrb": {
     "NAME": "Сфера Магнитности",
     "DESCRIPTION": [
-      "At the start of every turn, increases it's #yPotency by #b",
-      " for every #yMagnetic Orb currently chanelled. When #yEvoked, Gain #b",
-      " #yBlock and if the next Orb is #yMagnetic, #yEvoke it too. NL Not affected by #yFocus."
+      "Увеличивает свой #yпотенциал на #b",
+      " за каждую Заряженную Сферу #yМагнитности в начале каждого вашего хода. Даёт #b",
+      " #yЗащиты и, если след. cфера - #yМагнитности, #yРазряжает её тоже, при #yРазрядке. NL Не зависит от #yФокуса."
     ]
   },
   "accelerator:ThermalOrb": {
     "NAME": "Сфера Термальности",
     "DESCRIPTION": [
-      "At the start of every turn, swaps it's position with the orb in front of it. If it was another #yThermal Orb, increase Potency by #g",
-      ", otherwise decrease it by #b1. Deals #b",
-      " #yDamage to #rALL #renemies when #yEvoked. NL Value shown in #gGreen is affected by #yFocus."
+      "Меняет свою позицию с позицией сферы впереди в начале каждого вашего хода. Увеличивает свой потенциал на #g",
+      ", , если впереди была другая #yсфера #yТермальности, в ином случае уменьшает потенцил на #b1. Наносит #b",
+      " #yурона #rВСЕМ #rврагам при #yРазрядке. NL Значение, зависящее от #yФокуса, показано в #gЗеленом."
     ]
   },
   "accelerator:NuclearOrb": {
     "NAME": "Сфера Ядерности",
     "DESCRIPTION": [
-      "When #yEvoked, Deals #b",
-      " #yDamage to #ra #rrandom #renemy and #yChannels #b2 #yNuclear Orbs with half the Potency. NL Not affected by damage modifiers. NL Not affected by #yFocus."
+      "Наносит #b",
+      " #yурона #rслуч. #rврагу и #yЗаряжает #b2 cферу #yЯдерности Orbs c ополовиненным потенциалом при #yРазрядке. NL Не зависит от модификаторов урона. NL Не зависит от #yФокуса."
     ]
   }
 }

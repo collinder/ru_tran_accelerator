@@ -22,7 +22,7 @@
 		"UPGRADE_DESCRIPTION": "Оставляется. NL Разряжает !M! след. в очереди сферы."
 	},
 	"accelerator:KickStart": {
-		"NAME": "Kick-start",
+		"NAME": "Толчок",
 		"DESCRIPTION": "Начальная. NL Заряжает Сферу Магнитности с !B! потенциала. NL Разряжает след. в очереди сферу. NL Сжигается."
 	},
 	"accelerator:Propulsion": {
@@ -69,25 +69,25 @@
 	},
 	"accelerator:Radiation": {
 		"NAME": "Радиация",
-		"DESCRIPTION": "Заряжает Nuclear Orb с !M! потенциала. NL (37 Damage in total)",
-		"UPGRADE_DESCRIPTION": "Channel a Nuclear Orb with !M! Potency. NL (49 Damage in total)"
+		"DESCRIPTION": "Заряжает Сферу Ядерности с !M! потенциала. NL (37 урона в сумме)",
+		"UPGRADE_DESCRIPTION": "Заряжает Сферу Ядерности с !M! потенциала. NL (49 урона в сумме)"
 	},
 	"accelerator:PushOut": {
-		"NAME": "Push Out",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Evoke your next Orb."
+		"NAME": "Вытолкнуть",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Разряжает след. в очереди Сферу."
 	},
 	"accelerator:Cooldown": {
-		"NAME": "Cooldown",
+		"NAME": "Охлаждение",
 	    "DESCRIPTION": "Заряжает Сферу Магнитности c !B! потенциала. NL Заряжает 1 Сферы Льда. NL Уменьшает потенциал всех текущих Сфер Термальности на 2."
 	},
 	"accelerator:GrowingPotential": {
 		"NAME": "Растущий потенциал",
-		"DESCRIPTION": "Добавляет 1 слот для сфер. NL Push ALL Potential orbs to the back of Orb queue and trigger their passive effect !M! times."
+		"DESCRIPTION": "Добавляет 1 слот для сфер. NL Отталкивает ВСЕ Сферы Потенциальности в конец очереди и активирует их пассивный эффект !M! раза."
 	},
 	"accelerator:Spring": {
-		"NAME": "Spring",
-		"DESCRIPTION": "Объединяет ВСЕ Сферы Кинетики в одну Сферу Потенциальности и push it to the back of Orb queue.",
-		"UPGRADE_DESCRIPTION": "Merge ALL Kinetic AND Potential Orbs into single Potential Orb and push it to the back of Orb queue."
+		"NAME": "Источник",
+		"DESCRIPTION": "Объединяет ВСЕ Сферы Кинетики в одну Сферу Потенциальности и отталкивает её в конец очереди.",
+	    "UPGRADE_DESCRIPTION": "Объединяет ВСЕ Сферы Кинетики и Сферы Потенциальности в одну Сферу Потенциальности и отталкивает её в конец очереди."
 	},
 	"accelerator:Superposition": {
 		"NAME": "Суперпозиция",
@@ -107,13 +107,13 @@
 	},
 	"accelerator:Newtons2": {
 		"NAME": "Второй закон Ньютона",
-		"DESCRIPTION": "Put the next Orb to the back of Orb queue and trigger it's passive effect twice.",
-		"UPGRADE_DESCRIPTION": "Put next 2 Orbs to the back of Orb queue and trigger their passive effects twice."
+		"DESCRIPTION": "Отталкивает след. Сферу в конец очереди и активирует её пассивный эффект дважды.",
+		"UPGRADE_DESCRIPTION": "Отталкивает след. 2 Сферы в конец очереди и активирует её пассивный эффект дважды."
 	},
 	"accelerator:Newtons3": {
-		"NAME": "Newton's 3rd Law",
-		"DESCRIPTION": "Evoke your rightmost Kinetic orb. NL Gain !B! Block NL (equal to it's Potency).",
-		"UPGRADE_DESCRIPTION": "Evoke your most potent Kinetic orb. NL Gain !B! Block NL (equal to it's Potency)."
+		"NAME": "Третий закон Ньютона",
+		"DESCRIPTION": "Разряжает правейшую Сферу Кинетики. NL Даёт !B! Защиты NL (Защита равна потенциалу разряженной Сферы).",
+		"UPGRADE_DESCRIPTION": "Разряжает Сферу Кинетики с наибольшим потенциалом. NL Даёт !B! Защиты NL (Защита равна потенциалу разряженной Сферы)."
 	},
 	"accelerator:Roast": {
 		"NAME": "Обжарить",
@@ -124,8 +124,8 @@
 		"DESCRIPTION": "Заряжает 1 Сферу Льда. NL Заряжает Сферу Магнитности с !B! потенциала. NL Заряжает 1 Сферу Льда."
 	},
 	"accelerator:KnockOut": {
-		"NAME": "Knock Out",
-		"DESCRIPTION": "Channel a Kinetic Orb with !D! Potency. NL Apply !M! Weak. NL Apply 1 Stunned. NL Exhaust."
+		"NAME": "Вырубить",
+		"DESCRIPTION": "Заряжает Сферу Кинетики с !D! потенциала. NL Накладывает !M! Слабости. NL Накладывает 1 Оглушения. NL Сжигается."
 	},
 	"accelerator:Ground": {
 		"NAME": "Заземлить",
@@ -138,48 +138,48 @@
 	},
 	"accelerator:NuclearReactor": {
 		"NAME": "Атомный реактор",
-		"DESCRIPTION": "Заряжает Nuclear Orb с !M! потенциала. NL (12 урона in total) NL Заряжает 1 Сферы_Плазмы."
+		"DESCRIPTION": "Заряжает Сферу Ядерности с !M! потенциала. NL (12 урона в сумме) NL Заряжает 1 Сферы_Плазмы."
 	},
 	"accelerator:EnergyTransfer": {
 		"NAME": "Перенос энергии",
-		"DESCRIPTION": "The next !M! times you would lose HP, Channel a Kinetic Orb targeted at yourself with Potency of the HP you would've lost."
+		"DESCRIPTION": "След. !M! раза, когда вы потеряете ОЗ, вместо этого заряжает Сферу Кинетики, нацеленную на вас с потенциалом, равным тому ОЗ, которое вы бы потеряли."
 	},
 	"accelerator:Relativity": {
 		"NAME": "Относительность",
-		"DESCRIPTION": "Reduce the Potency of ALL your Orbs by 2. NL ALL enemies lose !M! Strength for this turn."
+		"DESCRIPTION": "Снижает потенциал ВСЕХ Заряженных Сфер на 2. NL ВСЕ враги теряют !M! Силы в этом ходу."
 	},
 	"accelerator:ClosedSystem": {
 		"NAME": "Закрытая система",
 		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Даёт [E] в след. ходу."
 	},
 	"accelerator:Impact": {
-		"NAME": "Impact",
-		"DESCRIPTION": "Channel 3 Kinetic Orbs with !D! Potency. NL Costs 1 less for every Kinetic Orb Channeled this turn."
+		"NAME": "Импульс",
+		"DESCRIPTION": "Заряжает 3 Сферы Кинетики с !D! потенциала. NL Стоит на 1 меньше за каждую Сферу Кинетики, Заряженную в этом ходе."
 	},
 	"accelerator:AllignedFields": {
-		"NAME": "Alligned Fields",
-		"DESCRIPTION": "Channel a Magnetic Orb with !B! Potency. NL Trigger the passive effect of all your Magnetic Orbs.",
-		"UPGRADE_DESCRIPTION": "Trigger the passive effect of your rightmost Orb twice. NL Channel a Magnetic Orb with !B! Potency. NL Trigger the passive effect of all your Magnetic Orbs."
+		"NAME": "Согласованные поля",
+		"DESCRIPTION": "Заряжает Сферу Магнитности с !B! потенциала. NL Активирует пассивный эффект ВСЕХ Сфер Магнитности.",
+		"UPGRADE_DESCRIPTION": "Активирует пассивный эффект правейшей Сферу дважды. NL Заряжает Сферу Магнитности с !B! потенциала. NL Активирует пассивный эффект ВСЕХ Сфер Магнитности."
 	},
 	"accelerator:SolarFlare": {
 		"NAME": "Солнечная вспышка",
-		"DESCRIPTION": "Заряжает Сферы Кинетики и Термальности, каждую с !D! потенциала. NL Заряжает a Nuclear Orb with !M! Potency. NL (4 Damage in total)",
-		"UPGRADE_DESCRIPTION": "Заряжает Сферы Кинетики и Термальности, каждую с !D! потенциала. NL Заряжает  Nuclear Orb с !M! потенциала. NL (5 урона в сумме)"
+		"DESCRIPTION": "Заряжает Сферы Кинетики и Термальности, каждую с !D! потенциала. NL Заряжает Сферу Ядерности с !M! потенциала. NL (4 урона в сумме)",
+		"UPGRADE_DESCRIPTION": "Заряжает Сферы Кинетики и Термальности, каждую с !D! потенциала. NL Заряжает Сферу Ядерности с !M! потенциала. NL (5 урона в сумме)"
 	},
 	"accelerator:Stabilize": {
-		"NAME": "Stabilize",
-		"DESCRIPTION": "Upgrade all cards in your hand for the rest of combat. NL Heal 1 HP for every card Upgraded. NL Exhaust.",
-		"UPGRADE_DESCRIPTION": "Draw 1 card. NL Upgrade all cards in your hand for the rest of combat. NL Heal 1 HP for every card Upgraded. NL Exhaust."
+		"NAME": "Стабилизировать",
+		"DESCRIPTION": "Улучшает ВСЕ карты в руке до конца боя. NL Восполняет 1 ОЗ за каждую Улучшенную таким образом карту. NL Сжигается.",
+	    "UPGRADE_DESCRIPTION": "Вы берёте 1 карту. NL Улучшает ВСЕ карты в руке до конца боя. NL Восполняет 1 ОЗ за каждую Улучшенную таким образом карту. NL Сжигается."
 	},
 	"accelerator:PerpetuumMobile": {
-		"NAME": "Perpetuum Mobile",
-		"DESCRIPTION": "At the start of every turn, Channel a Kinetic Orb with !M! Potency."
+		"NAME": "Вечный двигатель",
+		"DESCRIPTION": "Заряжает Сферу Кинетики с !M! потенциала в начале каждого вашего хода."
 	},
 	"accelerator:Entropy": {
-		"NAME": "Entropy",
-		"DESCRIPTION": "Set the Potency of all your Orbs to NL their average + !M!.",
+		"NAME": "Энтропия",
+		"DESCRIPTION": "Устанавливает потенциал ВСЕХ сфер NL на их среднее значение + !M!.",
         "EXTENDED_DESCRIPTION":[
-            " NL (Sets the Potency of all Orbs to ",
+            " NL (Устанавливает потенциал ВСЕХ cфер на ",
             ")"
         ]
 	},
@@ -188,11 +188,11 @@
 		"DESCRIPTION": "Даёт [E] за каждые 5 разряженных Сфер."
 	},
 	"accelerator:DoubleSlit": {
-		"NAME": "Double Slit",
+		"NAME": "Двойной разрыв",
 	    "DESCRIPTION": "Заряжает Сферу Потенциальности с !D! потенциала и случ. выбранной целью дважды."
 	},
 	"accelerator:Jet": {
-		"NAME": "Jet",
+		"NAME": "Реактивная тяга",
 		"DESCRIPTION": "Заряжает !M! Сферы Кинетики с !D! потенциала."
 	},
 	"accelerator:Search": {
@@ -206,17 +206,17 @@
 	},
 	"accelerator:Investigation": {
 		"NAME": "Расследование",
-		"DESCRIPTION": "Draw cards until you draw 2 cards which do not cost 0 energy energy or your hand is full.",
-		"UPGRADE_DESCRIPTION": "Retain. NL Draw cards until you draw 2 cards which do not cost 0 energy energy or your hand is full."
+		"DESCRIPTION": "Вы берёте карты пока не возьмете 2 карты, которые не стоят 0, или пока не наберете полную руку.",
+		"UPGRADE_DESCRIPTION": "Оставляется. NL Вы берёте карты пока не возьмете 2 карты, которые не стоят 0, или пока не наберете полную руку."
 	},
 	"accelerator:Blizzare": {
-		"NAME": "Blizzare",
-		"DESCRIPTION": "Channel a Nuclear Orb with !M! Potency. NL (4 Damage in total) NL Channel 1 Frost. NL Discard 1 card.",
-		"UPGRADE_DESCRIPTION": "Channel a Nuclear Orb with !M! Potency. NL (5 Damage in total) NL Channel 1 Frost. NL Discard 1 card."
+		"NAME": "Буря",
+		"DESCRIPTION": "Заряжает Сферу Ядерности с !M! потенциала. NL (4 урона в сумме) NL Заряжает 1 Сферу_Льда. NL Вы сбрасываете 1 карту.",
+		"UPGRADE_DESCRIPTION": "Заряжает Сферу Ядерности с !M! потенциала. NL (5 урона в сумме) NL Заряжает 1 Сферу_Льда. NL Вы сбрасываете 1 карту."
 	},
 	"accelerator:PiecingWhale": {
-		"NAME": "Piecing Whale",
-		"DESCRIPTION": "Channel a Potential Orb with !D! Potency. NL Apply !M! Piecing to ALL enemies. NL Exhaust."
+		"NAME": "Пичинговый кит",
+		"DESCRIPTION": "Заряжает Сферу Потенциальности с !D! потенциала. NL Накладывает !M! Piecing на ВСЕМ врагов. NL Сжигается."
 	},
 	"accelerator:Efficiency": {
 		"NAME": "Эффективность",
